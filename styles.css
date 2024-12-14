@@ -1,0 +1,156 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Section container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* About Me Section */
+.intro {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Experience Section */
+.experience {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.experience h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.experience ul {
+    list-style-type: none;
+}
+
+.experience li {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.experience p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Education Section */
+.education {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.education h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.education p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+}
